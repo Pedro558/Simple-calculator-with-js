@@ -1,0 +1,53 @@
+/*Global*/
+:root{
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Container*/
+.container{
+  max-width: 40rem;
+  margin: 5vh auto 0;
+  box-shadow: 0 0 43px 10px rgba(153, 153, 153, 1);
+}
+
+#display{
+  height: 7rem;
+  line-height: 7rem;
+  padding: 1.6rem 0.8rem;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+  background-color: #fff;
+  font-size: 2.5rem;
+  line-height: 8rem;
+  text-align: center;
+  cursor: pointer;
+  border: 0.5px solid #999;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+  transition: 500ms ease-in-out;
+  transform: scale(1.1, 1.1);
+}
+
+#equal{
+  background-color: #5555ff;
+  color: white;
+}
+
